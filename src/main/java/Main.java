@@ -7,7 +7,7 @@ System.out.println(hex.toHexDigits(Byte.parseByte(string)));
 */
 
 public class Main {
-    public static void main(String[] args){
+    static void main(){
         Scanner scanner = new Scanner(System.in);
         HexFormat hex = HexFormat.of();
         String assemblyOutput = "";
